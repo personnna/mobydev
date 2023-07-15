@@ -6,5 +6,5 @@
 
 ## Домашние задание:
 
-- Задание 1: (https://example.com)
+- Задание 1: (https://github.com/personnna/mobydev/tree/main/Labs)
 - TableView : [ссылка на документацию](https://example.com)
