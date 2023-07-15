@@ -7,4 +7,4 @@
 ## Домашние задание:
 
 - Задание 1: [first labs](https://github.com/personnna/mobydev/tree/main/Labs)
-- TableView : [TableView повтор за видео](https://example.com)
+- TableView : [TableView повтор за видео](https://github.com/personnna/mobydev/tree/main/tableview)
