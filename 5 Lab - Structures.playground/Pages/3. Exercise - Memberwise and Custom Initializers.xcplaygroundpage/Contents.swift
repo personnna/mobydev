@@ -6,21 +6,30 @@
 /*:
 Если вы выполнили упражнение «Structs, Instances, and Default Values», вы создали структуру «GPS» со значениями по умолчанию для свойств «широта» и «долгота». Снова создайте структуру `GPS`, но на этот раз не указывайте значения по умолчанию. Оба свойства должны быть типа Double.
  */
-struct GPS {
-
-
-}
 
 //:  Now create a constant instance of `GPS` called `somePlace`, and use the memberwise initializer to set `latitude` to 51.514004, and `longitude` to 0.125226. Print the values of `somePlace`'s properties.
 /*:
  Теперь создайте экземпляр константы `GPS` с именем `somePlace` и используйте инициализатор для отдельных элементов, чтобы установить `широта` на 51,514004, а `долгота` на 0,125226. Выведите значения свойств `somePlace`.
  */
+struct GPS {
+    var latitude: Double
+    var longitude: Double
+}
 
+print(GPS(latitude: 51.514004, longitude: 0.125226))
 
 //:  In Structs, Instance, and Default Values, you also created a `Book` struct with properties `title`, `author`, `pages`, and `price`. Create this struct again without default values. Give each property the appropriate type. Declare your `favoriteBook` instance and pass in the values of your favorite book using the memberwise initializer. Print a statement about your favorite book using `favoriteBook`'s properties.
 /*:
  В «Structs, Instances, and Default Values» по умолчанию вы также создали структуру «Книга» со свойствами «название», «автор», «страницы» и «цена». Создайте эту структуру еще раз без значений по умолчанию. Присвойте каждому свойству соответствующий тип. Объявите свой экземпляр `favoriteBook` и передайте значения вашей любимой книги, используя инициализатор членов. Напечатайте заявление о вашей любимой книге, используя свойства `favoriteBook`.
  */
+struct Book {
+    var title: String
+    var author: String
+    var pages: Int
+    var price: Double
+}
+
+let favoriteBook = Book(title: "1984", author: "George Orwell", pages: 328, price: 9.99)
 
 
 
@@ -33,7 +42,9 @@ struct GPS {
 /*:
  Создайте структуру `Laptop` с тремя переменными свойствами: `screenSize` типа `Int`, `repairCount` типа `Int` и `yearPurchased` типа `Int`. Дайте `screenSize` значение по умолчанию `13` и `repairCount` значение по умолчанию `0`, и оставьте `yearPurchased` без значения по умолчанию. Объявите два экземпляра `Laptop`, используя два предоставленных инициализатора для отдельных элементов.
  */
-
+struct Laptop {
+    
+}
 
 
 

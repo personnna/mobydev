@@ -7,20 +7,18 @@
  
  Создайте константу `city` и назначьте ей строковый литерал, представляющий ваш родной город. Затем создайте константу `state` и назначьте ей строковый литерал, представляющий вашу область. Наконец, создайте константу `home` и используйте конкатенацию строк, чтобы назначить ей строку, представляющую ваш родной город и область (например, Усть-Каменогорск, ВКО). Выведите значение `home`.
  */
-
-
-
-
-
-
+let city = "Усть-Каменогорск"
+let state = "ВКО"
+let home = city + ", " + state
+print(home)
 
 //:  Use the compound assignment operator (`+=`) to add `home` to `introduction` below. Print the value of `introduction`.
 /*:
  Используйте составной оператор присваивания (`+=`), чтобы добавить `home` к `introduction` ниже. Выведите значение `introduction`.
  */
-
-
-
+var introduction = "Hello, I'm from"
+introduction += home
+print(introduction)
 
 /*:
  Declare a `name` constant and assign it your name as a string literal. Then declare an `age` constant and give it your current age as an `Int`. Then print the following phrase using string interpolation:
@@ -36,8 +34,9 @@
 
 Вставьте `имя`, где указано, и вставьте математическое выражение, которое вычисляет ваш текущий возраст плюс один, где указано.
 */
-
-
+let name = "Eldana"
+let age = 19
+print("My name is \(name) and after my next birthday I will be \(age + 1) years old.")
 /*:
 [Previous](@previous)  |  page 2 of 5  |  [Next: App Exercise - Notifications](@next)
  */

@@ -8,13 +8,17 @@
 /*:
 Вы думаете, что было бы забавно включить дружеское соревнование в ваше приложение для отслеживания фитнеса. Пользователи смогут соревноваться с друзьями в небольших фитнес-задачах. Однако для этого пользователям потребуется учетная запись, защищенная паролем. Напишите ниже оператор if-else, который проверит, совпадают ли введенные имя пользователя и пароль с сохраненными именем пользователя и паролем. Хотя пароль должен быть чувствителен к регистру, пользователи должны иметь возможность войти в систему, даже если их введенное имя пользователя имеет неправильную заглавную букву. Если имя пользователя и пароль совпадают, выведите «Вы вошли в систему!» В противном случае выведите «Пожалуйста, проверьте имя пользователя и пароль и повторите попытку».
  */
+let storedUsername = "myusername"
+let storedPassword = "MySecretPassword"
 
+let enteredUsername = "MyUserName"
+let enteredPassword = "MySecretPassword"
 
-
-
-
-
-
+if enteredUsername.lowercased() == storedUsername.lowercased() && enteredPassword == storedPassword {
+    print("You are now logged in!")
+} else {
+    print("Please check your user name and password and try again.")
+}
 /*:
  Now that users can log in, they need to be able to search through a list of users to find their friends. This might normally be done by having the user enter a name, and then looping through all user names to see if a user name contains the search term entered. You'll learn about loops later, so for now you'll just work through one cycle of that. Imagine you are searching for a friend whose user name is StepChallenger. You enter "step" into a search bar and the app begins to search. When the app comes to the user name "stepchallenger," it checks to see if "StepChallenger" contains "step".
 
@@ -27,6 +31,11 @@
  */
 import Foundation
 
+let userName = "StepChallenger"
+let searchName = "step"
 
-
-
+if userName.lowercased().contains(searchName.lowercased()) {
+    print("Match found!")
+} else {
+    print("No match found.")
+}

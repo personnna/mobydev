@@ -12,10 +12,10 @@
  Создайте константы `firstName` и `lastName` и назначьте им строковые литералы, представляющие имя и фамилию пользователя соответственно. Создайте константу `fullName`, которая использует конкатенацию строк для объединения `firstName` и `lastName`. Выведите значение `fullName`.
  */
 
-
-
-
-
+let firstName = "Eldana"
+let lastName = "Kaden"
+let fullName = firstName + " " + lastName
+print(fullName)
 
 /*:
  Occasionally users of your fitness tracking app will beat previous goals or records. You may want to notify them when this happens for encouragement purposes. Create a new constant `congratulations` and assign it a string literal that uses string interpolation to create the following string:
@@ -31,6 +31,11 @@
  
  Вставьте `fullName`, `previousBest` и `newBest`, где указано. Выведите значение `поздравления`.
  */
+let previousBest = 8000
+let newBest = 10000
+
+let congratulations = "Congratulations, \(fullName)! You beat your previous daily high score of \(previousBest) steps by walking \(newBest) steps yesterday!"
+print(congratulations)
 
 
 

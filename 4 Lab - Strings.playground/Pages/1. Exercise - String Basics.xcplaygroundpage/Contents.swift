@@ -6,7 +6,7 @@
 /*:
 Создайте константу `name` и назначьте ей строковый литерал, представляющий ваше имя.
 */
-
+let name = "Eldana"
 
 
 /*:
@@ -29,17 +29,19 @@
  - Пример: если ваша любимая цитата "Трава всегда зеленее на другой стороне", значение `favoriteQuote` должно быть таким, чтобы печать `favoriteQuote` приводила к следующему:
  * `Моя любимая цитата: "Трава всегда зеленее на другой стороне".`
  */
-
-
-
-
+let favoriteQuote = "My favorite quote is \"In the midst of chaos, there is also opportunity.\""
+print(favoriteQuote)
 //:  Write an if-else statement that prints "There's nothing here" if `emptyString` is empty, and "It's not as empty as I thought" otherwise.
 /*:
  Напишите оператор if-else, который печатает «Здесь ничего нет», если `emptyString` пуст, и «Это не так пусто, как я думал» в противном случае.
  */
+let emptyString = ""
 
-
-
+if emptyString.isEmpty {
+    print("There's nothing here")
+} else {
+    print("It's not as empty as I thought")
+}
 /*:
 page 1 of 5  |  [Next: Exercise - Concatenation and Interpolation](@next)
  */
