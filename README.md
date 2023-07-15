@@ -6,5 +6,5 @@
 
 ## Домашние задание:
 
-- Задание 1: [first labs]([https://example.com](https://github.com/personnna/mobydev/tree/main/Labs))
+- Задание 1: [[first labs]([https://example.com](https://github.com/personnna/mobydev/tree/main/Labs))](https://github.com/personnna/mobydev/tree/main/Labs)
 - TableView : [TableView повтор за видео](https://example.com)
