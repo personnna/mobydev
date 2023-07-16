@@ -8,4 +8,4 @@
 
 - Задание 1: [first labs](https://github.com/personnna/mobydev/tree/main/Labs)
 - TableView : [TableView повтор за видео](https://github.com/personnna/mobydev/tree/main/tableview)
-- Задание 2: [first app](https://github.com/personnna/mobydev/tree/main/Labs)
+- Задание 2: [first app](https://github.com/personnna/mobydev/tree/main/musictableview)
