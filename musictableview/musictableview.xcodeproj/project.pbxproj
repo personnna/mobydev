@@ -18,6 +18,9 @@
 		B95503562A6385D200F1E976 /* musictableviewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95503552A6385D200F1E976 /* musictableviewUITestsLaunchTests.swift */; };
 		B95503632A63864E00F1E976 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95503622A63864D00F1E976 /* TableViewController.swift */; };
 		B95503652A6386B600F1E976 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95503642A6386B600F1E976 /* Music.swift */; };
+		B95503672A63B2BE00F1E976 /* 315.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B95503662A63B2BE00F1E976 /* 315.mp3 */; };
+		B955036A2A63B3DB00F1E976 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B95503692A63B3DB00F1E976 /* AVFoundation.framework */; };
+		B955036C2A63B3ED00F1E976 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B955036B2A63B3ED00F1E976 /* MediaPlayer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		B95503552A6385D200F1E976 /* musictableviewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = musictableviewUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B95503622A63864D00F1E976 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		B95503642A6386B600F1E976 /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		B95503662A63B2BE00F1E976 /* 315.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 315.mp3; sourceTree = "<group>"; };
+		B95503692A63B3DB00F1E976 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B955036B2A63B3ED00F1E976 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B955036C2A63B3ED00F1E976 /* MediaPlayer.framework in Frameworks */,
+				B955036A2A63B3DB00F1E976 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +95,7 @@
 				B95503482A6385D200F1E976 /* musictableviewTests */,
 				B95503522A6385D200F1E976 /* musictableviewUITests */,
 				B95503302A6385D100F1E976 /* Products */,
+				B95503682A63B3DB00F1E976 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +115,7 @@
 				B95503322A6385D100F1E976 /* AppDelegate.swift */,
 				B95503342A6385D100F1E976 /* SceneDelegate.swift */,
 				B95503362A6385D100F1E976 /* ViewController.swift */,
+				B95503662A63B2BE00F1E976 /* 315.mp3 */,
 				B95503382A6385D100F1E976 /* Main.storyboard */,
 				B95503622A63864D00F1E976 /* TableViewController.swift */,
 				B95503642A6386B600F1E976 /* Music.swift */,
@@ -131,6 +141,15 @@
 				B95503552A6385D200F1E976 /* musictableviewUITestsLaunchTests.swift */,
 			);
 			path = musictableviewUITests;
+			sourceTree = "<group>";
+		};
+		B95503682A63B3DB00F1E976 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B955036B2A63B3ED00F1E976 /* MediaPlayer.framework */,
+				B95503692A63B3DB00F1E976 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +258,7 @@
 			files = (
 				B955033F2A6385D200F1E976 /* LaunchScreen.storyboard in Resources */,
 				B955033C2A6385D200F1E976 /* Assets.xcassets in Resources */,
+				B95503672A63B2BE00F1E976 /* 315.mp3 in Resources */,
 				B955033A2A6385D100F1E976 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

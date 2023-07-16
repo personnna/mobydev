@@ -15,6 +15,7 @@ class TableViewController: UITableViewController {
     Music(name: "All for us", singer: "Labrinth, Zendaya", image: "allforus"),
     Music(name: "Harleys in Hawaii", singer: "Katy Perry", image: "harleyinhawaii"),
     Music(name: "Match in the rain", singer: "Alec Benjamin", image: "matchintherain")]
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
